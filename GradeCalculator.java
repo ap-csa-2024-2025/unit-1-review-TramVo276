@@ -11,8 +11,7 @@ public class GradeCalculator
     int HW4 = 99;
     int HW5 = 100;
     System.out.println("Homework grades for this course is:");
-    System.out.println(HomeWork);
-    System.out.println(HW2);
+    System.out.println(HomeWork + HW2);    ;
     System.out.println(HW3);
     System.out.println(HW4);
     System.out.println(HW5);
