@@ -16,6 +16,12 @@ public class GradeCalculator
     System.out.println(HW3);
     System.out.println(HW4);
     System.out.println(HW5);
+    double QuizGrade = 89.7;
+    double QuizGrade2 = 90.6;
+    System.out.println("Quiz grades for this course:");
+    System.out.println(QuizGrade);
+    System.out.println(QuizGrade2);
+  
 
   }
 }
