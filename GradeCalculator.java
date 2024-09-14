@@ -2,7 +2,7 @@ public class GradeCalculator
 {
   public static void main(String[] args)
   {
-    String course = "AP Computer Science A"
+    String course = "AP Computer Science A";
     int AmountTime = ((50 *4) + 37);
     System.out.println("Average time spent in a week for this course in minues is: " + AmountTime + " mintunes.");
     int HomeWork = 50;
@@ -16,6 +16,6 @@ public class GradeCalculator
     System.out.println(HW3);
     System.out.println(HW4);
     System.out.println(HW5);
-    
+
   }
 }
