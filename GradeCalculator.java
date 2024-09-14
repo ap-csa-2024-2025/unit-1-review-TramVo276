@@ -11,7 +11,8 @@ public class GradeCalculator
     int HW4 = 99;
     int HW5 = 100;
     System.out.println("Homework grades for this course is:");
-    System.out.println(HomeWork + HW2);    ;
+    System.out.println(HomeWork);    
+    System.out.println(HW2);
     System.out.println(HW3);
     System.out.println(HW4);
     System.out.println(HW5);
@@ -20,6 +21,10 @@ public class GradeCalculator
     System.out.println("Quiz grades for this course:");
     System.out.println(QuizGrade);
     System.out.println(QuizGrade2);
+    double FinalGrade = 94.53;
+    System.out.println("Final exam grase for this course:");
+    System.out.println(FinalGrade);
+    System.out.println("Weekly time spent: " + AmountTime / 60.0);
   
 
   }
