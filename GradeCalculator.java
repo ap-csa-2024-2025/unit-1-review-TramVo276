@@ -25,7 +25,7 @@ public class GradeCalculator
     System.out.println("Final exam grase for this course:");
     System.out.println(FinalGrade);
     System.out.println("Weekly time spent: " + AmountTime / 60.0);
-    System.out.println("Average homework grade: " + HomeWork + HW2 + HW3 + HW4 + HW5 / 5);
+    System.out.println("Average homework grade: " + (HomeWork + HW2 + HW3 + HW4 + HW5 / 5));
 
   
 
