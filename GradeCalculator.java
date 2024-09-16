@@ -27,13 +27,14 @@ public class GradeCalculator
     System.out.println("Weekly time spent: " + AmountTime / 60.0);
     double AverageHW = (HomeWork + HW2 + HW3 + HW4 + HW5) / 5.0;
     System.out.println("Average homework grade: " + AverageHW);
-    double AvgQuiz = (QuizGrade + QuizGrade2) / 2.0
+    double AvgQuiz = (QuizGrade + QuizGrade2) / 2.0;
     System.out.println("Average quiz grade: " + AvgQuiz);
     System.out.println(FinalGrade);
     double HWweight = 0.20;
     double Quizweight = 0.30;
     double Finalweight =  0.50;
     System.out.println("Overall grade: " + ((AverageHW * HWweight) + (AvgQuiz * Quizweight) + (FinalGrade * Finalweight)));
+    
     
 
 
